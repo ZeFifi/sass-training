@@ -1,6 +1,8 @@
+$primary-color: #278da4;
+
 body {
     background-color: black;
         h1 {
-            color: red;
+            color: $primary-color;
         }
 }
