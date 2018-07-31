@@ -1,11 +1,13 @@
-body {
-  background-color: black;
-}
-body h1 {
+.container h1 {
   color: #278da4;
+  font-weight: 700;
 }
-body h1:hover {
+.container h1:hover {
   color: red;
+}
+.container p {
+  color: #278da4;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,23 @@
+// COLORS
+
 $primary-color: #278da4;
 $secondary-color: red;
 
-body {
-    background-color: black;
-        h1 {
-            color: $primary-color;
-            &:hover {
-                color: $secondary-color;
-            }
-        }
+// MIXINS
+
+@mixin text {
+  color: $primary-color;
+  font-weight: 700;
+}
+
+.container {
+  h1 {
+    @include text;
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+  p {
+      @include text;
+  }
 }
