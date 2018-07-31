@@ -1,8 +1,12 @@
 $primary-color: #278da4;
+$secondary-color: red;
 
 body {
     background-color: black;
         h1 {
             color: $primary-color;
+            &:hover {
+                color: $secondary-color;
+            }
         }
 }

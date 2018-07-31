@@ -4,5 +4,8 @@ body {
 body h1 {
   color: #278da4;
 }
+body h1:hover {
+  color: red;
+}
 
 /*# sourceMappingURL=style.css.map */
